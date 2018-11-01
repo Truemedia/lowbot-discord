@@ -1,0 +1,30 @@
+{
+  "name": "lowbot-discord",
+  "version": "0.0.1",
+  "description": "Discord adapter for lowbot",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Truemedia/lowbot-discord.git"
+  },
+  "keywords": [
+    "lowbot",
+    "adapter",
+    "discord",
+    "api",
+    "bot",
+    "service"
+  ],
+  "author": "Wade Penistone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Truemedia/lowbot-discord/issues"
+  },
+  "homepage": "https://github.com/Truemedia/lowbot-discord#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
