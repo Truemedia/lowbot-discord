@@ -37,8 +37,18 @@ module.exports = {
     * @prop {String} parser - Library used to parse information from msg
     */
   input: {
-    detector: 'eduir', // Educated intent recogniser
-    parser: 'intent-desire' // BDI reverse lookup
+    /**
+      * Computer vision algorithms
+      */
+    cva: {support: false}
+    /**
+      * Natural language understanding
+      */
+    nlu: {support: true, native: false}
+    /**
+      * Speech recognition layer
+      */
+    srl: {support: false},
   },
   /**
     * Output configuration
@@ -57,5 +67,12 @@ module.exports = {
     */
   vars: {
     token: 'DISCORD_TOKEN'
+  },
+  /**
+    * Handle user data association
+    */
+  user: {
+    username: 'username',
+    id: 'id'
   }
 };
