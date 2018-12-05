@@ -33,8 +33,6 @@ module.exports = {
   /**
     * Input configuration
     * @namespace input
-    * @prop {String} detector - Library used to detect intent of msg
-    * @prop {String} parser - Library used to parse information from msg
     */
   input: {
     /**
