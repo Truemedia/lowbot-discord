@@ -1,6 +1,6 @@
 {
   "name": "lowbot-discord",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Discord adapter for lowbot",
   "main": "src/index.js",
   "scripts": {
