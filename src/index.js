@@ -1,4 +1,7 @@
+// Lib
 const Discord = require('discord.js');
+// Requests
+const Nlu = require('./request/nlu');
 
 /**
   * Discord adapter
@@ -38,15 +41,15 @@ module.exports = {
     /**
       * Computer vision algorithms
       */
-    cva: {support: false}
+    cva: {support: false},
     /**
       * Natural language understanding
       */
-    nlu: {support: true, native: false}
+    nlu: {support: true, native: false, request: Nlu},
     /**
       * Speech recognition layer
       */
-    srl: {support: false},
+    srl: {support: false}
   },
   /**
     * Output configuration

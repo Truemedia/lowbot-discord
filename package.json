@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/Truemedia/lowbot-discord#readme",
   "dependencies": {
-    "discord.js": "^11.4.2"
+    "discord.js": "^11.4.2",
+    "hightech": "^0.2.0",
+    "strip-mentions": "^1.0.0"
   }
 }
