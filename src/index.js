@@ -68,12 +68,5 @@ module.exports = {
     */
   vars: {
     token: 'DISCORD_TOKEN'
-  },
-  /**
-    * Handle user data association
-    */
-  user: {
-    username: 'username',
-    id: 'id'
   }
 };
