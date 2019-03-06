@@ -1,5 +1,5 @@
-# Lowbot discord
-Discord adapter for lowbot
+# Mind Stack discord
+Discord adapter for Mind Stack
 
 ## This is a work in progress
 
@@ -7,19 +7,19 @@ Discord adapter for lowbot
 
 NPM
 ```bash
-    npm i --save lowbot-discord
+    npm i --save mindstack-discord
 ```
 
 Yarn
 ```bash
-    yarn add lowbot-discord
+    yarn add mindstack-discord
 ```
 
 ## Usage
 Node
 ```js
-    const LowBot = require('lowbot');
-    const discord = require('lowbot-discord');
+    const LowBot = require('mindstack');
+    const discord = require('mindstack-discord');
 
     let botInstance = new LowBot()
       .useAdapter(discord);
